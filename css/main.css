@@ -1,0 +1,305 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+}
+.container > * {
+  padding: 10px;
+  text-align: center;
+}
+
+@media (min-width: 900px) {
+  .header {
+    grid-area: header;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+  }
+  .header p {
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 20px;
+  }
+  .header div .icono {
+    color: #ff8c17;
+    font-size: 33px;
+    margin-right: 10px;
+  }
+  .navbar {
+    grid-area: navbar;
+    background-color: #ff8c17;
+    display: flex;
+    justify-content: space-between;
+  }
+  .navbar img {
+    display: flex;
+    width: 110px;
+    height: 90px;
+    margin-left: 40px;
+  }
+  .navbar div {
+    width: 440px;
+    display: flex;
+    margin: 20px;
+    justify-content: space-between;
+  }
+  .navbar ul {
+    width: 300px;
+    display: flex;
+    list-style: none;
+    margin: 10px;
+    justify-content: space-between;
+  }
+  .navbar a {
+    text-decoration: none;
+    color: white;
+  }
+  .navbar button {
+    width: 75px;
+    height: 35px;
+    border-radius: 12%;
+    border: rgb(255, 255, 255);
+    font-size: 18px;
+    color: #000000;
+    background-color: greenyellow;
+    transition: 0.5s;
+  }
+  .navbar button:hover {
+    background-color: rgb(255, 255, 255);
+    color: #ff8000;
+  }
+  .navbar a:hover {
+    border-bottom: solid 1px black;
+  }
+  .carrousel {
+    grid-area: carrousel;
+    background-image: url(/img/carrusel/1carrusel.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .carrousel:hover {
+    background-image: url(/img/carrusel/2carrusel.jpg);
+  }
+  .mvision {
+    grid-area: mvision;
+    display: flex;
+    justify-content: center;
+  }
+  .mision h2 {
+    margin: 10px;
+  }
+  .mision:hover {
+    transform: scale(1.1);
+    border: 1px solid white;
+  }
+  .vision h2 {
+    margin: 10px;
+  }
+  .vision:hover {
+    transform: scale(1.1);
+    border: 1px solid white;
+  }
+  .mision {
+    width: 500px;
+    background-color: #ff8000;
+    color: white;
+    margin: 10px;
+    padding: 40px;
+    transition: 1s;
+  }
+  .vision {
+    width: 500px;
+    background-color: #ff8000;
+    color: white;
+    margin: 10px;
+    padding: 40px;
+    transition: 1s;
+  }
+  .que {
+    display: flex;
+    justify-content: center;
+    background-color: #ff8000;
+    margin-left: 145px;
+    border: groove 10px greenyellow;
+    margin-bottom: 30px;
+  }
+  .que img {
+    width: 200px;
+    margin: 20px;
+  }
+  .pobreza {
+    grid-area: pobreza;
+    width: 300px;
+    height: 450px;
+  }
+  .que p {
+    background-color: rgb(214, 211, 211);
+  }
+  .colegio {
+    grid-area: colegio;
+    width: 300px;
+    margin-left: 40px;
+  }
+  .colegio img {
+    margin-bottom: 60px;
+  }
+  .colegio h1,
+  .colegio p {
+    background-color: greenyellow;
+  }
+  .animales {
+    grid-area: animales;
+    width: 300px;
+    margin-left: 40px;
+  }
+  .we_support {
+    grid-area: we_support;
+    border: 1px solid black;
+    padding: 0;
+  }
+  .we_support > h1 {
+    background-color: greenyellow;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .cajas {
+    display: flex;
+    justify-content: center;
+  }
+  .caja1 {
+    margin: 0px 40px;
+    width: 170px;
+    height: 150px;
+    background-color: #ff8000;
+    border: 1px solid black;
+    margin-bottom: 20px;
+  }
+  .caja2 {
+    margin: 0px 40px;
+    width: 170px;
+    height: 150px;
+    background-color: #ff8000;
+    border: 1px solid black;
+    margin-bottom: 20px;
+  }
+  .caja3 {
+    margin: 0px 40px;
+    width: 170px;
+    height: 150px;
+    background-color: #ff8000;
+    border: 1px solid black;
+    margin-bottom: 20px;
+  }
+  .caja4 {
+    margin: 0px 40px;
+    width: 170px;
+    height: 150px;
+    background-color: #ff8000;
+    border: 1px solid black;
+    margin-bottom: 20px;
+  }
+  .caja5 {
+    margin: 0px 40px;
+    width: 170px;
+    height: 150px;
+    background-color: #ff8000;
+    border: 1px solid black;
+    margin-bottom: 20px;
+  }
+  .cajas h1 {
+    margin-top: 10px;
+    color: #ffffff;
+  }
+  .cajas h2 {
+    font-family: "Indie Flower", cursive;
+    font-size: 80px;
+    color: greenyellow;
+  }
+  .map {
+    grid-area: map;
+  }
+  .support {
+    grid-area: support;
+    border: solid 1px black;
+  }
+  .support > h1 {
+    background-color: greenyellow;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .cajass2 {
+    display: flex;
+    justify-content: center;
+  }
+  .cajas1 {
+    width: 400px;
+    height: 150px;
+    border: 1px solid rgb(0, 0, 0);
+    background-image: url(/img/apoyo/1apoyo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .cajas2 {
+    width: 400px;
+    height: 150px;
+    border: 1px solid rgb(0, 0, 0);
+    background-image: url(/img/apoyo/2apoyo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .cajas3 {
+    width: 400px;
+    height: 150px;
+    border: 1px solid rgb(0, 0, 0);
+    background-image: url(/img/apoyo/3apoyo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .footer {
+    background-color: #ff8000;
+    margin-top: 30px;
+    border: solid 1px black;
+    grid-area: footer;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container {
+    display: grid;
+    grid-template:
+      "header "
+      "navbar "
+      "carrousel " 400px
+      "mvision" auto
+      "pobreza" auto
+      "colegio" auto
+      "animales" auto
+      "we_support" auto
+      "map" auto
+      "support" auto
+      "footer " auto;
+  }
+  .container {
+    grid-template:
+      "header     header     header    " auto
+      "navbar     navbar     navbar    " 100px
+      "carrousel  carrousel  carrousel" 600px
+      "mvision     mvision     mvision"
+      "pobreza    colegio    animales" auto
+      "we_support we_support we_support" auto
+      " map       map        map" auto
+      "support    support    support" auto
+      "footer     footer     footer" auto;
+  }
+}
