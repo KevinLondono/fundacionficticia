@@ -81,11 +81,13 @@ body {
   }
   .carrousel {
     grid-area: carrousel;
-    background-image: url(/img/carrusel/1carrusel.jpg);
+    background-image: url(../img/carrusel/1carrusel.jpg);
     background-position: center;
     background-repeat: no-repeat;
   }
-  
+  .carrousel:hover {
+    background-image: url(../img/carrusel/2carrusel.jpg);
+  }
   .mvision {
     grid-area: mvision;
     display: flex;
@@ -243,7 +245,7 @@ body {
     width: 400px;
     height: 150px;
     border: 1px solid rgb(0, 0, 0);
-    background-image: url(/img/apoyo/1apoyo.png);
+    background-image: url(../img/apoyo/1apoyo.png);
     background-position: center;
     background-repeat: no-repeat;
   }
@@ -251,7 +253,7 @@ body {
     width: 400px;
     height: 150px;
     border: 1px solid rgb(0, 0, 0);
-    background-image: url(/img/apoyo/2apoyo.png);
+    background-image: url(../img/apoyo/2apoyo.png);
     background-position: center;
     background-repeat: no-repeat;
   }
@@ -259,7 +261,7 @@ body {
     width: 400px;
     height: 150px;
     border: 1px solid rgb(0, 0, 0);
-    background-image: url(/img/apoyo/3apoyo.png);
+    background-image: url(../img/apoyo/3apoyo.png);
     background-position: center;
     background-repeat: no-repeat;
   }
